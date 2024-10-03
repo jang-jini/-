@@ -1,0 +1,18 @@
+--- 처음 1번만 하는 세팅 ----
+git config --global user.email "(너의 이메일주소)"
+git config --global user.name "(너의 깃허브 닉네임)"
+---- 세팅된 상태에서 올리는 마법같은 명령어--- 
+git add . 
+git commit -m "어떤 무작위 원하는 메세지" -> 지금 시점에 어떤걸 했는지 활동위주
+git push 
+---- 파일 받는 방법 ---- 
+git clone 한칸 띄고 Shift + insert -> 복사 했다는 가정하에 
+김현빈 — 오늘 오후 12:47
+---- 세팅된 상태에서 올리는 마법같은 명령어--- 
+git add . 
+git commit -m "어떤 무작위 원하는 메세지" -> 지금 시점에 어떤걸 했는지 활동위주
+git push
+전체를 내려 받고 싶으면 git clone (레포지토리 주소)
+git pull
+이건 기존 레포지토리가 있는데 최신버전으로 받고싶을 때
+그 때 쓰는거
